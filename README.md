@@ -7,3 +7,11 @@
 1. 基本的新闻入口界面，不同的新闻类别下有不同新闻的标题和点击标题后看到新闻正文
 2. 有网络时从网络获取新闻，并缓存到本地db
 3. 无网络时从db获取新闻
+
+
+## 项目进展
+
+1. 从Android Studio的模板中创建Tabbed Activity
+2. 参考郭霖《Android第一行代码》 中第四章的实践-新闻应用，把FrameLayout植入到前一个的Fragment_main的layout文件中，可以实现recycleView上下滑动并显示一些假数据
+3. 通过学习书中网络技术的学习，主要是OkHttp，和XML格式数据的解析，可以从网络更新数据到本地，但实现方式还是在UI_Thread中进行了网络请求，是不规范的
+4. 学习并使用ViewPage中的 OnPageListener 去监听左右滑动，实现新闻类型变更时标题的更新
