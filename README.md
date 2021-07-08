@@ -43,7 +43,7 @@
 
 5. 接下来的数据库部分内容也只能等工作空余时间补全了
 
-## 项目中问题总结
+## 项目中问题及参考总结
 
 https://blog.csdn.net/weixin_35691921/article/details/106520749
 
@@ -54,6 +54,14 @@ https://blog.csdn.net/qq_33242956/article/details/104966631
 https://my.oschina.net/u/2531348/blog/613037
 
 https://blog.csdn.net/qq_33238562/article/details/103289965
+
+https://github.com/THEONE10211024/ApiDemos
+
+https://blog.csdn.net/sgiceleo/article/details/65442035
+
+https://blog.csdn.net/zhliro/article/details/46829925
+
+https://www.cnblogs.com/yizhaoAI/p/9823452.html
 
 ## Todo
 
