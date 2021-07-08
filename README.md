@@ -27,16 +27,16 @@
 2. 参考郭霖《Android第一行代码》 中第四章的实践-新闻应用，把FrameLayout植入到前一个的Fragment_main的layout文件中，可以实现recycleView上下滑动并显示一些假数据
 <!-- ![Lark20210708-215756](https://user-images.githubusercontent.com/77102785/124934779-9dc9c000-e037-11eb-8cf1-6378e165e3c2.png)
 ![Lark20210708-215807](https://user-images.githubusercontent.com/77102785/124934784-9f938380-e037-11eb-9ab9-63909c730e50.png) -->
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124934779-9dc9c000-e037-11eb-8cf1-6378e165e3c2.png"  width="200" height="360" ></div>
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124934784-9f938380-e037-11eb-9ab9-63909c730e50.png" width="200" height="360" ></div>
+<div align=center style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124934779-9dc9c000-e037-11eb-8cf1-6378e165e3c2.png"  width="200" height="360" ></div>
+<div align=center style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124934784-9f938380-e037-11eb-9ab9-63909c730e50.png" width="200" height="360" ></div>
 
 3. 通过学习书中网络技术的学习，主要是OkHttp，和XML格式数据的解析，可以从网络更新数据到本地，但实现方式还是在UI_Thread中进行了网络请求，是不规范的
 
 <!-- ![Lark20210708-221605](https://user-images.githubusercontent.com/77102785/124937603-1fbae880-e03a-11eb-8a30-7e114b9218b5.png)
 ![Lark20210708-221609](https://user-images.githubusercontent.com/77102785/124937610-20ec1580-e03a-11eb-9645-d4b4f8741557.png) -->
 
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124937603-1fbae880-e03a-11eb-8a30-7e114b9218b5.png"  width="200" height="360" ></div>
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124937610-20ec1580-e03a-11eb-9645-d4b4f8741557.png" width="200" height="360" ></div>
+<div align=center style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124937603-1fbae880-e03a-11eb-8a30-7e114b9218b5.png"  width="200" height="360" ></div>
+<div align=center style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124937610-20ec1580-e03a-11eb-9645-d4b4f8741557.png" width="200" height="360" ></div>
 
 4. 学习并使用ViewPage中的 OnPageListener 去监听左右滑动，实现新闻类型变更时标题的更新，滑动操作可以监听到，但是出现了新闻类型与标题对应不上的问题，请教导师，导师建议重建以梳理项目
 
@@ -44,8 +44,8 @@
 ![Lark20210708-223613](https://user-images.githubusercontent.com/77102785/124940892-f0f24180-e03c-11eb-9f34-2d5d554cd069.png) -->
 
 
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124940884-ef287e00-e03c-11eb-9eb9-afeb03adea0e.png"  width="200" height="360" ></div>
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124940892-f0f24180-e03c-11eb-9f34-2d5d554cd069.png" width="200" height="360" ></div>
+<div align=center style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124940884-ef287e00-e03c-11eb-9eb9-afeb03adea0e.png"  width="200" height="360" ></div>
+<div align=center style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124940892-f0f24180-e03c-11eb-9f34-2d5d554cd069.png" width="200" height="360" ></div>
 
 5. 接下来的数据库部分内容也只能等工作空余时间补全了
 
