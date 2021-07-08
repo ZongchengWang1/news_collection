@@ -30,6 +30,6 @@
 ![Lark20210708-221609](https://user-images.githubusercontent.com/77102785/124937610-20ec1580-e03a-11eb-9645-d4b4f8741557.png) -->
 
 <div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124937603-1fbae880-e03a-11eb-8a30-7e114b9218b5.png"  width="200" height="360" ></div>
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="(https://user-images.githubusercontent.com/77102785/124937610-20ec1580-e03a-11eb-9645-d4b4f8741557.png" width="200" height="360" ></div>
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124937610-20ec1580-e03a-11eb-9645-d4b4f8741557.png" width="200" height="360" ></div>
 
 4. 学习并使用ViewPage中的 OnPageListener 去监听左右滑动，实现新闻类型变更时标题的更新
