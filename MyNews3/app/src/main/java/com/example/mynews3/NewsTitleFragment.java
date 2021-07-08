@@ -20,6 +20,17 @@ import kotlin.OverloadResolutionByLambdaReturnType;
 public class NewsTitleFragment extends Fragment {
     private boolean isTwoPane;
 
+    public static int type;
+
+    public final int[] types = {0,1,2,3,4};
+
+    public final String[] links = {
+            "http://www.people.com.cn/rss/politics.xml",
+            "http://www.people.com.cn/rss/world.xml",
+            "http://www.people.com.cn/rss/finance.xml",
+            "http://www.people.com.cn/rss/sports.xml",
+            "http://www.people.com.cn/rss/edu.xml"};
+
     class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder>{
         private List<News> mNewsList;
 
@@ -83,7 +94,27 @@ public class NewsTitleFragment extends Fragment {
         RecyclerView newsTitleRecyclerView = (RecyclerView) view.findViewById(R.id.news_title_recycler_view);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         newsTitleRecyclerView.setLayoutManager(layoutManager);
-        NewsAdapter adapter = new NewsAdapter(getNews("trying"));
+        String link = "";
+        switch (type){
+            case 0:
+                link = links[0];
+                break;
+            case 1:
+                link = links[1];
+                break;
+            case 2:
+                link = links[2];
+                break;
+            case 3:
+                link = links[3];
+                break;
+            case 4:
+                link = links[4];
+                break;
+            default:
+                break;
+        }
+        NewsAdapter adapter = new NewsAdapter(getNews(link));
         newsTitleRecyclerView.setAdapter(adapter);
         return view;
     }
@@ -99,9 +130,11 @@ public class NewsTitleFragment extends Fragment {
         return newsList;
     }
 
-    private List<News> getNews(String type) {
+    private List<News> getNews(String link) {
         OnlineNews onlineNews = new OnlineNews();
-        onlineNews.updataNews("http://www.people.com.cn/rss/politics.xml");
+        onlineNews.updataNews(link);
+
+        //onlineNews.updataNews("http://www.people.com.cn/rss/politics.xml");
         Log.d("aaaaaaaaaaaaaa","get link");
         List<News> newsList = onlineNews.onlineNs;
         /*for (int i = 1; i <= 20; i++){
