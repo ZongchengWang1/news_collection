@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyNews2</string>
+    <string name="tab_text_1">国内</string>
+    <string name="tab_text_2">国际</string>
+    <string name="tab_text_3">经济</string>
+    <string name="tab_text_4">体育</string>
+    <string name="tab_text_5">教育</string>
+
+
+</resources>
