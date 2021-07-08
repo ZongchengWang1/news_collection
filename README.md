@@ -21,8 +21,8 @@
 <!-- ![Lark20210708-214239](https://user-images.githubusercontent.com/77102785/124932319-8e497780-e035-11eb-8d85-9d17433d255f.png)
 ![Lark20210708-214247](https://user-images.githubusercontent.com/77102785/124932322-8f7aa480-e035-11eb-8e85-8fc2c3ede6e3.png) -->
 
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124932319-8e497780-e035-11eb-8d85-9d17433d255f.png"  width="200" height="360" ></div>
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124932322-8f7aa480-e035-11eb-8e85-8fc2c3ede6e3.png" width="200" height="360" ></div>
+<div align=center style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124932319-8e497780-e035-11eb-8d85-9d17433d255f.png"  width="200" height="360" ></div>
+<div align=center style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124932322-8f7aa480-e035-11eb-8e85-8fc2c3ede6e3.png" width="200" height="360" ></div>
 
 2. 参考郭霖《Android第一行代码》 中第四章的实践-新闻应用，把FrameLayout植入到前一个的Fragment_main的layout文件中，可以实现recycleView上下滑动并显示一些假数据
 <!-- ![Lark20210708-215756](https://user-images.githubusercontent.com/77102785/124934779-9dc9c000-e037-11eb-8cf1-6378e165e3c2.png)
