@@ -23,5 +23,7 @@
 ![Lark20210708-215807](https://user-images.githubusercontent.com/77102785/124934784-9f938380-e037-11eb-9ab9-63909c730e50.png) -->
 <div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124934779-9dc9c000-e037-11eb-8cf1-6378e165e3c2.png"  width="200" height="360" ></div>
 <div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://user-images.githubusercontent.com/77102785/124934784-9f938380-e037-11eb-9ab9-63909c730e50.png" width="200" height="360" ></div>
+
 3. 通过学习书中网络技术的学习，主要是OkHttp，和XML格式数据的解析，可以从网络更新数据到本地，但实现方式还是在UI_Thread中进行了网络请求，是不规范的
+
 4. 学习并使用ViewPage中的 OnPageListener 去监听左右滑动，实现新闻类型变更时标题的更新
